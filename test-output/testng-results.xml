@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50657" started-at="2020-05-01T23:09:47Z" finished-at="2020-05-01T23:10:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50657" started-at="2020-05-01T23:09:47Z" finished-at="2020-05-01T23:10:37Z">
+      <class name="Air_TestCases.Air_Firstpage_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="setup" is-config="true" duration-ms="13953" started-at="2020-05-01T23:09:47Z" finished-at="2020-05-01T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enter()[pri:1, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="enter" duration-ms="145" started-at="2020-05-01T23:10:01Z" finished-at="2020-05-01T23:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter -->
+        <test-method status="PASS" signature="fromto()[pri:3, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="fromto" duration-ms="4255" started-at="2020-05-01T23:10:01Z" finished-at="2020-05-01T23:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fromto -->
+        <test-method status="PASS" signature="tofrom()[pri:4, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="tofrom" duration-ms="5530" started-at="2020-05-01T23:10:05Z" finished-at="2020-05-01T23:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tofrom -->
+        <test-method status="PASS" signature="fromtodetails()[pri:5, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="fromtodetails" duration-ms="9121" started-at="2020-05-01T23:10:11Z" finished-at="2020-05-01T23:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fromtodetails -->
+        <test-method status="PASS" signature="sec()[pri:6, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="sec" duration-ms="534" started-at="2020-05-01T23:10:20Z" finished-at="2020-05-01T23:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sec -->
+        <test-method status="PASS" signature="text()[pri:7, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="text" duration-ms="57" started-at="2020-05-01T23:10:20Z" finished-at="2020-05-01T23:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- text -->
+        <test-method status="PASS" signature="main()[pri:8, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="main" duration-ms="16727" started-at="2020-05-01T23:10:20Z" finished-at="2020-05-01T23:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:Air_TestCases.Air_Firstpage_Test@11161c7]" name="tear" is-config="true" duration-ms="290" started-at="2020-05-01T23:10:37Z" finished-at="2020-05-01T23:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- Air_TestCases.Air_Firstpage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
