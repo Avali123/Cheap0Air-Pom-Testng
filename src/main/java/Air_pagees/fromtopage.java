@@ -5,9 +5,10 @@ import java.util.NoSuchElementException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
-import AIR_base.Air_baseclss;
+import AIR_base.Air_Excelbase;
 
-public class fromtopage  extends Air_baseclss{
+
+public class fromtopage  extends  Air_Excelbase{
 
 	public    fromtopage(){
 

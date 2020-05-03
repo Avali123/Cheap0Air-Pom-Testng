@@ -2,7 +2,6 @@ package Air_pagees;
 
 	
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -10,29 +9,29 @@ import org.openqa.selenium.WebElement;
 	import org.openqa.selenium.support.FindBy;
 	import org.openqa.selenium.support.PageFactory;
 
-import AIR_base.Air_baseclss;
+import AIR_base.Air_Excelbase;
 
 
 
-public class AIR_firstpage extends Air_baseclss {
+public class AIR_firstpage extends  Air_Excelbase {
 
 
 		@FindBy(xpath="//input[@id='from-01-0']")
-		WebElement from;
+		public static WebElement from;
 		@FindBy(xpath="//input[@id='to-01-0']")
-		WebElement to;
+		static 	WebElement to;
 		@FindBy(xpath="//input[@id='departure-date-01-0']")
-		WebElement deptdate;
+		static WebElement deptdate;
 		@FindBy(xpath="//input[@id='return-date-01-0']")
-		WebElement retrndate;
+		static 	WebElement retrndate;
 		@FindBy(xpath="//span[contains(text(),'CheapOair.ca')]")
-		WebElement text;
+		static 	WebElement text;
 		
 		@FindBy(id="departure-date-01-0")
-		WebElement sec;
+		static 	WebElement sec;
 		
 		@FindBy(id="return-date-01-0")
-		WebElement ret;
+		static 	WebElement ret;
 	public    AIR_firstpage(){
 
 	PageFactory.initElements(wd, this);
@@ -43,14 +42,16 @@ public class AIR_firstpage extends Air_baseclss {
 		
 	return	wd.getTitle();
 	}
-	public String  text(){
+	public boolean  text(){
 		
-		return text.getText();
+		return text.isDisplayed();
 		
 	}
 	
 	public void fromtoodetails( String des, String arravial) throws InterruptedException {
 		
+		from.clear();
+		Thread.sleep(2000);
 	from.sendKeys(des);
 		Thread.sleep(3000);
 		from.click();

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Air_TestCases.Air_Firstpage_Test">
+      <class name="Air_TestCases.AIr_execute_sep">
         <methods>
-          <include name="main"/>
-          <include name="setup"/>
+          <include name="fromtodetails"/>
           <include name="tear"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Air_TestCases.Air_Firstpage_Test -->
+      </class> <!-- Air_TestCases.AIr_execute_sep -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

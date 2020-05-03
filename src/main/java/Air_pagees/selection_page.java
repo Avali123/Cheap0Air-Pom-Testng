@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import AIR_base.Air_baseclss;
+import AIR_base.Air_Excelbase;
 
-public class selection_page  extends Air_baseclss{
+public class selection_page  extends  Air_Excelbase{
 
 
 public    selection_page(){

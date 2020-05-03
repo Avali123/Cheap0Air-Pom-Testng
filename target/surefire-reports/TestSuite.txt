@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.424 s <<< FAILURE! - in TestSuite
+main(Air_TestCases.Air_Firstpage_Test)  Time elapsed: 8.437 s  <<< FAILURE!
+java.lang.AssertionError: expected [CheapOair - Save on Cheap Flights, Cheap Airfares, Cheap Tickets] but found [The resource cannot be found.]
+	at Air_TestCases.Air_Firstpage_Test.main(Air_Firstpage_Test.java:106)
+
